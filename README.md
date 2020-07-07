@@ -14,20 +14,24 @@ Instainsane is an Shell Script to perform multi-threaded brute force attack agai
 - Default password list (best +39k 8 letters)
 - Check and Install all dependencies
 
-### Usage:
+### Install requirements (First time usage):
+
 ```
 git clone https://github.com/thelinuxchoice/instainsane
 cd instainsane
 chmod +x instainsane.sh
+chmod +x install.sh
+sudo ./install.sh
 sudo ./instainsane.sh
 ```
 
-### Install requirements (Curl, Tor, Openssl):
+### Usage (For any other time):
+```
+cd instainsane
+sudo ./instainsane.sh
+```
 
-```
-chmod +x install.sh
-sudo ./install.sh
-```
+
 
 ### How it works?
 
