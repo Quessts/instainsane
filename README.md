@@ -1,0 +1,2 @@
+# instainsane
+Instagram bruteforce tool
